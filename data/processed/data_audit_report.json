@@ -1,0 +1,22 @@
+{
+  "source": "yfinance",
+  "tickers": [
+    "SPY",
+    "VEA",
+    "EEM",
+    "IEF",
+    "TLT",
+    "TIP",
+    "LQD",
+    "VNQ",
+    "GLD",
+    "DBC"
+  ],
+  "n_assets": 10,
+  "start_requested": "2015-01-01",
+  "end_requested": "2022-12-31",
+  "aligned_start": "2015-01-02",
+  "aligned_end": "2022-12-30",
+  "n_price_rows": 2014,
+  "n_return_rows": 2013
+}

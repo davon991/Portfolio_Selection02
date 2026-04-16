@@ -1,0 +1,72 @@
+{
+  "SPY": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "VEA": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "EEM": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "IEF": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "TLT": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "TIP": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "LQD": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "VNQ": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "GLD": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  },
+  "DBC": {
+    "start": "2015-01-02",
+    "end": "2022-12-30",
+    "missing_rate_raw": 0.0,
+    "count_raw": 2014,
+    "count_aligned": 2014
+  }
+}

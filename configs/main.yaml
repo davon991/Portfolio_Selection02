@@ -1,0 +1,50 @@
+run:
+  name: main
+  results_dir: results/runs
+  seed: 123
+  code_commit: NA
+
+data:
+  source: yfinance
+  csv_folder: data/raw
+  tickers: [SPY, VEA, EEM, IEF, TLT, TIP, LQD, VNQ, GLD, DBC]
+  start: '2008-01-01'
+  end: '2025-12-31'
+
+experiment:
+  rebalance: monthly_last
+  window_L: 1260
+  covariance_method: ledoit_wolf_shrinkage
+  x_max: 0.25
+  cost_c: 0.0005
+  eps_db: 1.0e-10
+  annualization_factor: 252
+
+solver:
+  max_iter: 1500
+  tol: 1.0e-10
+  rho: 3000.0
+
+calibration:
+  train_frac: 0.50
+  val_frac: 0.25
+  test_frac: 0.25
+  p_grid: [0.4, 0.5, 0.6, 0.7, 0.8]
+  TO_target: 0.12
+  eps_TO: 0.01
+  alpha_grid: [1.0e-6, 1.0e-5, 1.0e-4]
+  min_active_rate: 0.05
+  max_active_rate: 0.90
+  max_boundary_xmax_rate: 0.30
+  max_boundary_zero_rate: 0.80
+  max_turnover_ratio_p95_to_median: 5.0
+  min_convergence_rate: 0.99
+  max_failure_streak: 3
+  score_lambda_cost: 0.0
+  score_lambda_instability: 0.0
+
+reporting:
+  make_figures: true
+  figure_format: [png, pdf]
+  selected_windows: 6
+  make_tables: true

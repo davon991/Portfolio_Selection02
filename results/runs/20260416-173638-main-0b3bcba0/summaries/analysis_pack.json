@@ -1,0 +1,162 @@
+{
+  "run_id": "20260416-173638-main-0b3bcba0",
+  "best_strategy": "RB_CTB_BAND",
+  "strategy_order": [
+    "EW",
+    "GMV",
+    "ERC",
+    "CTB_ONLY",
+    "RB_CTB_BAND"
+  ],
+  "key_findings": [
+    "RB_CTB_BAND is calibrated with CtR as primary objective and CtB band as structural control.",
+    "Compare db_mean, dr_mean, turnover and sharpe against ERC/GMV/EW/CTB_ONLY."
+  ],
+  "metric_deltas_vs_erc": {
+    "sharpe": 0.00043268868512391645,
+    "ann_return": 3.772047821426483e-05,
+    "ann_vol": 1.3070257383659967e-05
+  },
+  "db_reduction_vs_erc": 0.0007570363705602101,
+  "dr_change_vs_erc": 9.8586511696528e-06,
+  "active_rate": 0.3741935483870968,
+  "recommended_figures": [
+    "fig_01_capital_vs_risk",
+    "fig_02_dr_db_frontier",
+    "fig_03_cumulative_nav",
+    "fig_04_drawdown",
+    "fig_05_ctr_heatmap",
+    "fig_06_ctb_heatmap",
+    "fig_07_dr_db_timeseries",
+    "fig_08_corr_heatmap",
+    "fig_09_calibration_heatmap",
+    "fig_10_solver_convergence"
+  ],
+  "warnings": {
+    "EW": [],
+    "GMV": [],
+    "ERC": [],
+    "CTB_ONLY": [],
+    "RB_CTB_BAND": []
+  },
+  "solver_health_summary": {
+    "EW": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.010860340339250731,
+      "turnover_p95": 0.02013674918533788
+    },
+    "GMV": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.009643476415113374,
+      "turnover_p95": 0.02878552803966686
+    },
+    "ERC": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.011640782871424718,
+      "turnover_p95": 0.016887772373074858
+    },
+    "CTB_ONLY": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.018745130746643895,
+      "turnover_p95": 0.03193834674955487
+    },
+    "RB_CTB_BAND": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.3741935483870968,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.011871642735631268,
+      "turnover_p95": 0.017739767150378415
+    }
+  },
+  "pointers": {
+    "figure_files": [],
+    "table_files": []
+  },
+  "final_parameters": {
+    "delta": 0.07016686045995531,
+    "eta": 9.313225746154785e-08,
+    "gamma": 1.0102026036602452e-10,
+    "rho": 3000.0,
+    "eps_db": 1e-10
+  },
+  "candidate_set_results": [
+    {
+      "p": 0.4,
+      "delta": 0.06539929395284541,
+      "gamma": 1.0102026036602452e-10,
+      "eta": 9.313225746154785e-08,
+      "net_sharpe_val": 1.1301329674538638,
+      "avg_turnover_val": 0.013506689466117897,
+      "active_rate_val": 0.2641509433962264,
+      "convergence_rate_val": 1.0,
+      "valid": true,
+      "reasons": "",
+      "score": 1.1301329674538638
+    },
+    {
+      "p": 0.5,
+      "delta": 0.06630590783472065,
+      "gamma": 1.0102026036602452e-10,
+      "eta": 9.313225746154785e-08,
+      "net_sharpe_val": 1.1307784428261547,
+      "avg_turnover_val": 0.013484826535130036,
+      "active_rate_val": 0.2641509433962264,
+      "convergence_rate_val": 1.0,
+      "valid": true,
+      "reasons": "",
+      "score": 1.1307784428261547
+    },
+    {
+      "p": 0.6,
+      "delta": 0.0686949400313653,
+      "gamma": 1.0102026036602452e-10,
+      "eta": 9.313225746154785e-08,
+      "net_sharpe_val": 1.1325159901039363,
+      "avg_turnover_val": 0.013433190862517999,
+      "active_rate_val": 0.18867924528301888,
+      "convergence_rate_val": 1.0,
+      "valid": true,
+      "reasons": "",
+      "score": 1.1325159901039363
+    },
+    {
+      "p": 0.7,
+      "delta": 0.07016686045995531,
+      "gamma": 1.0102026036602452e-10,
+      "eta": 9.313225746154785e-08,
+      "net_sharpe_val": 1.1334273623847069,
+      "avg_turnover_val": 0.013422814161261162,
+      "active_rate_val": 0.1320754716981132,
+      "convergence_rate_val": 1.0,
+      "valid": true,
+      "reasons": "",
+      "score": 1.1334273623847069
+    },
+    {
+      "p": 0.8,
+      "delta": 0.07163053808664124,
+      "gamma": 1.0102026036602452e-10,
+      "eta": 9.313225746154785e-08,
+      "net_sharpe_val": 1.1338232896683234,
+      "avg_turnover_val": 0.013390738013724071,
+      "active_rate_val": 0.03773584905660377,
+      "convergence_rate_val": 1.0,
+      "valid": false,
+      "reasons": "active_rate_too_low",
+      "score": 1.1338232896683234
+    }
+  ]
+}

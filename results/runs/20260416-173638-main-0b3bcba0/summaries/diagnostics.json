@@ -1,0 +1,147 @@
+{
+  "run_id": null,
+  "strategy_health": {
+    "EW": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.010860340339250731,
+      "turnover_p95": 0.02013674918533788
+    },
+    "GMV": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.009643476415113374,
+      "turnover_p95": 0.02878552803966686
+    },
+    "ERC": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.011640782871424718,
+      "turnover_p95": 0.016887772373074858
+    },
+    "CTB_ONLY": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.0,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.018745130746643895,
+      "turnover_p95": 0.03193834674955487
+    },
+    "RB_CTB_BAND": {
+      "n_rebalances": 155,
+      "success_rate": 1.0,
+      "active_rate": 0.3741935483870968,
+      "max_fail_streak": 0,
+      "turnover_mean": 0.011871642735631268,
+      "turnover_p95": 0.017739767150378415
+    }
+  },
+  "solve_success_rate": {
+    "EW": 1.0,
+    "GMV": 1.0,
+    "ERC": 1.0,
+    "CTB_ONLY": 1.0,
+    "RB_CTB_BAND": 1.0
+  },
+  "fallback_rate": {},
+  "active_rate": {
+    "EW": 0.0,
+    "GMV": 0.0,
+    "ERC": 0.0,
+    "CTB_ONLY": 0.0,
+    "RB_CTB_BAND": 0.3741935483870968
+  },
+  "kkt_residual_stats": {
+    "EW": {
+      "mean": NaN
+    },
+    "GMV": {
+      "mean": NaN
+    },
+    "ERC": {
+      "mean": NaN
+    },
+    "CTB_ONLY": {
+      "mean": NaN
+    },
+    "RB_CTB_BAND": {
+      "mean": NaN
+    }
+  },
+  "constraint_violation_stats": {
+    "EW": {
+      "budget_abs_max": 0.0
+    },
+    "GMV": {
+      "budget_abs_max": 2.220446049250313e-16
+    },
+    "ERC": {
+      "budget_abs_max": 2.220446049250313e-16
+    },
+    "CTB_ONLY": {
+      "budget_abs_max": 2.220446049250313e-16
+    },
+    "RB_CTB_BAND": {
+      "budget_abs_max": 2.220446049250313e-16
+    }
+  },
+  "band_violation_stats": {
+    "EW": {
+      "mean": 0.6634886504807401,
+      "max": 1.8544617812455526
+    },
+    "GMV": {
+      "mean": 0.1074099497952499,
+      "max": 0.1791391444064137
+    },
+    "ERC": {
+      "mean": 0.0007587212744640442,
+      "max": 0.009536497994722268
+    },
+    "CTB_ONLY": {
+      "mean": 0.0,
+      "max": 0.0
+    },
+    "RB_CTB_BAND": {
+      "mean": 1.8759071419096355e-06,
+      "max": 5.9728831503444435e-05
+    }
+  },
+  "step_rejection_stats": {
+    "EW": {
+      "not_available_in_stage_9A": true
+    },
+    "GMV": {
+      "not_available_in_stage_9A": true
+    },
+    "ERC": {
+      "not_available_in_stage_9A": true
+    },
+    "CTB_ONLY": {
+      "not_available_in_stage_9A": true
+    },
+    "RB_CTB_BAND": {
+      "not_available_in_stage_9A": true
+    }
+  },
+  "warning_dates": {
+    "EW": [],
+    "GMV": [],
+    "ERC": [],
+    "CTB_ONLY": [],
+    "RB_CTB_BAND": []
+  },
+  "failed_dates": {
+    "EW": [],
+    "GMV": [],
+    "ERC": [],
+    "CTB_ONLY": [],
+    "RB_CTB_BAND": []
+  }
+}

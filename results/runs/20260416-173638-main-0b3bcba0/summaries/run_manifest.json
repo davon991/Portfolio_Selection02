@@ -1,0 +1,74 @@
+{
+  "run_id": "20260416-173638-main-0b3bcba0",
+  "created_utc": "2026-04-16T17:42:30.060957+00:00",
+  "spec_version": "external_freeze_0",
+  "data_contract_version": "external_freeze_1",
+  "calibration_protocol_version": "external_freeze_2",
+  "code_commit": "NA",
+  "universe": [
+    "DBC",
+    "EEM",
+    "GLD",
+    "IEF",
+    "LQD",
+    "SPY",
+    "TIP",
+    "TLT",
+    "VEA",
+    "VNQ"
+  ],
+  "date_range": {
+    "start": "2008-01-01",
+    "end": "2025-12-31"
+  },
+  "frequency": {
+    "data": "daily",
+    "rebalance": "monthly"
+  },
+  "window_L": 1260,
+  "covariance_method": "ledoit_wolf_shrinkage",
+  "constraints": {
+    "x_max": 0.25
+  },
+  "costs": {
+    "c": 0.0005
+  },
+  "parameters": {
+    "delta": 0.07016686045995531,
+    "eta": 9.313225746154785e-08,
+    "gamma": 1.0102026036602452e-10,
+    "rho": 3000.0,
+    "eps_db": 1e-10
+  },
+  "outputs": [
+    "results\\runs\\20260416-173638-main-0b3bcba0\\logs\\calibration_log.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\perf_daily.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\weights.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\ctr_long.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\ctb_long.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\dr_db_timeseries.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\objective_terms.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\turnover_timeseries.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\solver_trace.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\panel.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\panel.parquet",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\panels\\corr_structure_panel.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\summaries\\summary_metrics.csv",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\summaries\\diagnostics.json",
+    "results\\runs\\20260416-173638-main-0b3bcba0\\summaries\\analysis_pack.json"
+  ],
+  "data_artifacts": {
+    "prices_adj_parquet": "data\\processed\\prices_daily_adj.parquet",
+    "prices_adj_csv": "data\\processed\\prices_daily_adj.csv",
+    "prices_adj_parquet_ok": true,
+    "returns_daily_csv": "data\\processed\\returns_daily.csv",
+    "returns_parquet": "data\\processed\\returns.parquet",
+    "returns_long_csv": "data\\processed\\returns_long.csv",
+    "returns_parquet_ok": true,
+    "calendar_master_csv": "data\\processed\\calendar_master.csv",
+    "universe_mask_csv": "data\\processed\\universe_mask.csv",
+    "asset_summary_csv": "data\\processed\\asset_summary.csv",
+    "data_audit_report_json": "data\\processed\\data_audit_report.json",
+    "assets_json": "data\\processed\\assets.json"
+  }
+}
